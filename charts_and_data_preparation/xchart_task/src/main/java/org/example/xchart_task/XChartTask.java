@@ -19,10 +19,10 @@ import java.util.stream.Collectors;
 /**
  * Hello world!
  */
-public class XChartExamples {
+public class XChartTask {
     SwingWrapper swingWrapper;
     public static void main(String[] args) {
-        XChartExamples xChart = new XChartExamples ();
+        XChartTask xChart = new XChartTask();
         List<TitanicPassenger> allPassengers = xChart.getPassengersFromJsonFile ();
         xChart.graphPassengerAges (allPassengers);
         xChart.graphPassengerClass (allPassengers);

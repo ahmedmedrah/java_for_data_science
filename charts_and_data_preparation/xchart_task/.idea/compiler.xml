@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Session6Xchart" />
+        <module name="xchart_task" />
         <module name="Session6XchartIntegration" />
       </profile>
     </annotationProcessing>

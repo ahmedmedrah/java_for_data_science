@@ -8,7 +8,7 @@
     <artifactId>Session6XchartIntegration</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>Session6XchartIntegration</name>
+    <name>xchart_task</name>
     <!-- FIXME change it to the project's website -->
 
     <properties>

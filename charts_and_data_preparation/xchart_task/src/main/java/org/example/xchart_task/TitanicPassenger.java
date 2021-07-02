@@ -1,4 +1,4 @@
-package org.example.jupai6;
+package org.example.xchart_task;
 
 public class TitanicPassenger {
 

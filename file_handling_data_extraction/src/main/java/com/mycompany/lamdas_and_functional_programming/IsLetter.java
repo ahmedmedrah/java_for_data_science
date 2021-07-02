@@ -1,8 +1,8 @@
-package com.mycompany.day3;
+package com.mycompany.lamdas_and_functional_programming;
 
 import java.util.stream.IntStream;
 
-public class Task4 {
+public class IsLetter {
     public static void main(String[] args) {
         String s = "abc1";
         String s2 = "abc";

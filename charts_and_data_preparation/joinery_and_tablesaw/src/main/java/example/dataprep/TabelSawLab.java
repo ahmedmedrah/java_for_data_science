@@ -1,4 +1,4 @@
-package jupai.dataprep;
+package example.dataprep;
 
 import tech.tablesaw.api.DateColumn;
 import tech.tablesaw.api.IntColumn;

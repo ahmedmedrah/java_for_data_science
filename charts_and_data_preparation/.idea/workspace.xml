@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7be79b21-763c-4a74-bc89-e05bfb665ab5" name="Default Changelist" comment="" />
+    <list default="true" id="7be79b21-763c-4a74-bc89-e05bfb665ab5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../file_handling_data_extraction/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../file_handling_data_extraction/src/main/java/com/mycompany/day2/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../file_handling_data_extraction/src/main/java/com/mycompany/read_write_from_user/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../file_handling_data_extraction/src/main/java/com/mycompany/day3/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../file_handling_data_extraction/src/main/java/com/mycompany/lamdas_and_functional_programming/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../file_handling_data_extraction/src/main/java/com/mycompany/day3/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../file_handling_data_extraction/src/main/java/com/mycompany/lamdas_and_functional_programming/BetterString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../file_handling_data_extraction/src/main/java/com/mycompany/day3/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../file_handling_data_extraction/src/main/java/com/mycompany/lamdas_and_functional_programming/IsLetter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ulKxVyIalmLj0tWnEhKwhMYFlV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Session6Xchart" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JUPAI5_Examples" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

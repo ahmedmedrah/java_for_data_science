@@ -1,4 +1,4 @@
-package com.mycompany.day3;
+package com.mycompany.lamdas_and_functional_programming;
 
 import java.util.function.BiPredicate;
 

@@ -1,4 +1,4 @@
-package jupai.dataprep;
+package example.dataprep;
 
 import joinery.DataFrame;
 

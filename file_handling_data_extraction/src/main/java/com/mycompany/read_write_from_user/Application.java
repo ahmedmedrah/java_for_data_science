@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.day2;
+package com.mycompany.read_write_from_user;
 
 import java.io.*;
 

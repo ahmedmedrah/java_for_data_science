@@ -1,6 +1,6 @@
-package com.mycompany.day3;
+package com.mycompany.lamdas_and_functional_programming;
 
-public class Task3 {
+public class BetterString {
     public static void main(String[] args) {
         String string1 = "aaa";
         String string2 = "bbbb";
