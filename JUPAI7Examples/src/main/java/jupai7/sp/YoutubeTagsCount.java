@@ -15,7 +15,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class YoutubeTageCount {
+public class YoutubeTagsCount {
 
     private static final String COMMA_DELIMITER = ",";
     public static void main(String[] args) throws IOException {
@@ -40,7 +40,7 @@ public class YoutubeTageCount {
     public static void countTags(JavaRDD<String> videos){
         LocalTime start= LocalTime.now ();
         JavaRDD<String> tags = videos
-                .map (YoutubeTageCount::extractTag)
+                .map (YoutubeTagsCount::extractTag)
                 .filter (StringUtils::isNotBlank);
         // JavaRDD<String>
         JavaRDD<String> words = tags.flatMap (tag -> Arrays.asList (tag
