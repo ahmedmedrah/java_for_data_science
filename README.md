@@ -9,3 +9,5 @@ Java for datascience
 ### xChart
 ### Joinery
 ### TableSaw
+### SMILE
+### Apache Spark
