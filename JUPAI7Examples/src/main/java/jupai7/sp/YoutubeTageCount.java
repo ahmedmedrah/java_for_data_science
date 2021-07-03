@@ -9,14 +9,14 @@ import org.apache.spark.api.java.JavaSparkContext;
 
 import java.io.IOException;
 import java.time.Duration;
-import java.time.LocalDate;
 import java.time.LocalTime;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class YoutubeTitleWordCount {
+public class YoutubeTageCount {
+
     private static final String COMMA_DELIMITER = ",";
     public static void main(String[] args) throws IOException {
         Logger.getLogger ("org").setLevel (Level.ERROR);
@@ -26,24 +26,24 @@ public class YoutubeTitleWordCount {
         // LOAD DATASETS
         JavaRDD<String> videos = sparkContext.textFile ("src/main/resources/data/USvideos.csv");
         // TRANSFORMATIONS
-       countTitle(videos);
+        countTags(videos);
     }
-    public static String extractTitle(String videoLine) {
+    public static String extractTag(String videoLine) {
         try {
-            return videoLine.split (COMMA_DELIMITER)[2];
+            return videoLine.split (COMMA_DELIMITER)[6];
         } catch (ArrayIndexOutOfBoundsException e) {
             return "";
         }
     }
 
 
-    public static void countTitle(JavaRDD<String> videos){
+    public static void countTags(JavaRDD<String> videos){
         LocalTime start= LocalTime.now ();
-        JavaRDD<String> titles = videos
-                .map (YoutubeTitleWordCount::extractTitle)
+        JavaRDD<String> tags = videos
+                .map (YoutubeTageCount::extractTag)
                 .filter (StringUtils::isNotBlank);
         // JavaRDD<String>
-        JavaRDD<String> words = titles.flatMap (title -> Arrays.asList (title
+        JavaRDD<String> words = tags.flatMap (tag -> Arrays.asList (tag
                 .toLowerCase ()
                 .trim ()
                 .replaceAll ("\\p{Punct}", " ")
@@ -61,4 +61,5 @@ public class YoutubeTitleWordCount {
         Duration duration= Duration.between (start,end);
         System.out.println("processing time is :"+duration.getNano ());
     }
+
 }
